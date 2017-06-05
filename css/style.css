@@ -1,0 +1,64 @@
+.message {
+   font-family: 'Lato', sans-serif;
+    color: ghostwhite;
+    position:relative;
+    padding-top: 130px;
+    padding-left: 50px;
+    font-size: 3em;
+
+}
+
+.movie {
+    font-size:0;
+    display: inline-block;  
+    position: absolute;
+    right: 290px;
+    width: 300px;
+    border: 0px solid #73AD21;
+    padding: 10px;
+
+        
+}
+.about {
+    font-family: 'Lato', sans-serif;
+    color: ghostwhite;
+    position: relative;
+    padding-top: 10px;
+    height: 4em; width: 350px;
+    padding-left: 50px;
+}
+html { 
+  background: url(/images/snow.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* navigation bar */
+nav {
+	background-color: rgba(0,0,0,0); /* transparent navigation bar */
+	color: white;
+	font-size: 1.2em;
+  width:100%;
+  text-align: center;
+	position: fixed;
+	z-index: 50; /* top element */
+    font-family: 'Lato', sans-serif;
+    color: ghostwhite;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Nobile', sans-serif;
+}
+
+
+nav ul li {
+	display: inline-block;
+	padding: 10px;
+    font-family: 'Nobile', sans-serif;
+}
+
+nav a {
+	text-decoration: none;
+	color: inherit;
+    font-family: 'Nobile', sans-serif;
+}
